@@ -11,6 +11,7 @@ Iskra is a DIY 10‑key hand‑wired macropad designed for both wired USB and Bl
 - **Hand‑wired** 3×4 matrix with 1N4148 diodes (10 keys populated)
 - **Wired USB‑C** and **Bluetooth** modes
 - **ZMK Studio** support for on‑device editing
+- 3D printable, files on [MakerWorld](https://makerworld.com/en/models/1859378)
 
 ### Real photos
 <p>
@@ -128,9 +129,6 @@ Reference image: ![Pinout](files%20and%20media/Pinout%20for%20rows%20and%20colum
 
 ---
 
-### CAD and print files
-- Print‑ready 3MF: `Makerworld 3mf/Case ready to print.3mf`
-- STEP models: `Step files/Case step.step`, `Step files/plate step.step`
 
 Exploded view:
 
