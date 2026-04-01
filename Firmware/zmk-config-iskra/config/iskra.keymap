@@ -16,13 +16,13 @@
 		};
 
 		bt_layer {
-			display-name = "Bluetooth";
-			bindings = <
-				&trans &trans &trans
-				&trans &trans &trans
-				&bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-			>;
-		};
+            display-name = "Bluetooth";
+            bindings = <
+                &bt BT_CLR   &trans       &trans        // Put BT_CLR on the top left key
+                &trans       &trans       &trans
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  // Start at profile 0
+            >;
+        };
 
 		layer3 {
 			display-name = "Layer 3";
